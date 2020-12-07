@@ -11,5 +11,5 @@ public class MineCell {
     public boolean getMine() { return ismine; }
     public void setNeighbor_count(int n) { neighbor_count = n; }
     public int getNeighbor_count() { return neighbor_count; }
-    public boolean getflag() { return face_value == '#'; } // 만약 플래스가 세워져있으면 true, 아니면 false;
+    public boolean getflag() { return face_value == "#"; } // 만약 플래스가 세워져있으면 true, 아니면 false;
 }
